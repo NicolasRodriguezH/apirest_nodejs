@@ -12,7 +12,7 @@ let conexion = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "articulosdb"
+    database: "" /* Nombre de tu base de datos */
 });
 
 //probamos la conexion
